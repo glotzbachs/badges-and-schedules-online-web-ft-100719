@@ -18,3 +18,9 @@ def assign_rooms(array)
   end
   new_array
 end
+
+def printer(array)
+  array.each_with_index do |name,index|
+    puts "Hello, #{name}! You'll be assigned to room #{index+1}!"
+  end
+end
