@@ -5,5 +5,8 @@ end
 
 def batch_badge_creator(array)
   new_array=[]
-  
+  array.each_with_index do |name|
+    new_array << "Hello, #{name} "
+  end
+  new_array
 end
